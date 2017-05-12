@@ -142,14 +142,12 @@ audio
 }
 
 
-@media screen and (max-width: 300px)
+@media only screen and (max-width: 300px)
 {
     nav ul li
     {
-    font-family:clean;
-	font-size: 24em;
-	display: inline-block;
-	padding: 100px;
+        font-family:clean;
+	   font-size: 2em;
     }
 
       
