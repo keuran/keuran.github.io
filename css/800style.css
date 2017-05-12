@@ -139,12 +139,22 @@ nav ul li a:hover
 /*///////////////////////////////////////*/
 /*//Media Queries                      //*/
 /*///////////////////////////////////////*/
-@media only screen and (max-width: 640px)
+@media screen and (max-width: 768px)
 {
     
-    nav ul li
+    nav ul
     {
         display: block;
+        position: absolute;
+        background: #F5F5F5;
+    }
+    
+    nav li
+    {
+        text-align: center;
+        width: 100%;
+        background: #F5F5F5;
+
     }
 
       
