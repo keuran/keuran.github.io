@@ -3,79 +3,65 @@
     font-family: clean;
     src: url(../fonts/clean.ttf);
 }
-html, body
+
+*
 {
 	margin: 0;
 	padding: 0;
-	height: 100%;
-    width: 100%;
+	border: 0;
 }
 
-.mainPage
+body
 {
-    position: absolute;
-    height: 100%;
-    width:100%;
-    margin: auto;
-    top: 0;
-    background-size: cover;
-    background-image:url('../img/snow1.png'), url('.../img/snow2.png'),                     url('.../img/snow3.png');
-    background-color: #000000;
-    -webkit-animation: snow 20s linear infinite;
-    -moz-animation: snow 20s linear infinite;
-    -ms-animation: snow 20s linear infinite;
-    animation: snow 20s linear infinite;
-}
-
-.mainPage .inner
-{
-    display: table-cell;
-    vertical-align: middle;
-    width: 100%;
-    max-width: none;
-}
-
-.content
-{
-    
-    max-width: 500px;
-    margin-top: 0;
+    font-family: clean;
+    line-height: 190%;
     text-align: center;
 }
 
-.content h1
+header
 {
-    font-family: clean; /*CUSTOM FONT-FAMILY*/
-    color: #C3D7DF;
-    font-weight: 300;
-    opacity: 1;
-    font-size:450%;
+    height: 86px;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
 }
 
-
-/*///////////////////////////////////////*/
-/*// Navigation Styles                   */
-/*///////////////////////////////////////*/
-.navBar
+#header-inner
 {
-    font-size: 100%;
-    line-height: 1;
-    top: 50%;
-    left: 50%;
-    margin: 0;
-    text-decoration: none;
-    color: #fff;
+    max-width: 1200px;
+    margin: 0 auto;
 }
+
+h1
+{
+    float: left;
+    padding: 35px 20px  0; 
+    font-size: 350%;
+    
+}
+
+nav
+{
+    float: right;
+    padding: 45px 20px 0 0;
+    
+}
+
+ul
+{
+    list-style: none;
+}
+
 nav ul li
 {
-    font-family:clean;
-	font-size: 2.5em;
-	display: inline-block;
-	padding: 10px;
+    display: inline-block;
+    padding 10px;
+    float: left;
+    font-size: 190%;
 }
+
 nav ul li a
 {
-    color: #ffffff;
     text-decoration: none;
      opacity: 0.5;
 }
@@ -86,7 +72,6 @@ nav ul li a:hover
     padding-bottom: 3px;
     border-bottom: 1px solid #ffffff;
 }
-
 
 
 /*///////////////////////////////////////*/
