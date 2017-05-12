@@ -106,12 +106,6 @@ nav ul li a:hover
     border-bottom: 1px solid #ffffff;
 }
 
-audio
-{
-    float: right;
-    background-color: #95B9C7;
-    opacity: 0.2;
-}
 
 /*///////////////////////////////////////*/
 /*//Animation keyframes for snow effect//*/
@@ -141,13 +135,16 @@ audio
     100% { background-position: 500px 1000px, 400px 400px, 300px 300px;}
 }
 
-
-@media only screen and (max-width: 300px)
+    
+/*///////////////////////////////////////*/
+/*//Media Queries                      //*/
+/*///////////////////////////////////////*/
+@media only screen and (max-width: 640px)
 {
+    
     nav ul li
     {
-        font-family:clean;
-	   font-size: 2em;
+        display: block;
     }
 
       
