@@ -53,6 +53,11 @@ html, body
     animation: snow 20s linear infinite;
 }
 
+.image-logo
+{
+    width: 100%;
+}
+
 .mainPage .inner
 {
     align-content: center;
