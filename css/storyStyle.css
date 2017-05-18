@@ -79,14 +79,33 @@ nav ul li a:hover
 
 body
 {
-    background-color: black;
+     background-size: cover;
+    background-image:url('../img/snow1.png'), url('.../img/snow2.png'),                     url('.../img/snow3.png');
+    background-color: #000000;
+    -webkit-animation: snow 20s linear infinite;
+    -moz-animation: snow 20s linear infinite;
+    -ms-animation: snow 20s linear infinite;
+    animation: snow 20s linear infinite;
 }
 
 #wrapper
 {
-    padding-top: 100px;
+    font-size: 200%;
+    font-family: clean;
+    color: aliceblue;
+    padding-top: 180px;
+    padding-left: 50px;
     max-width: 1200px;
     margin: 0 auto;
+}
+h1
+{
+    opacity: .8;
+}
+p
+{
+    background: black;
+    padding-top: 15px;
 }
 
 img
@@ -173,3 +192,33 @@ img:hover
     }
 }
 
+
+
+
+/*///////////////////////////////////////*/
+/*//Animation keyframes for snow effect//*/
+/*///////////////////////////////////////*/
+@-webkit-keyframes snow 
+{
+    0% { background-position: 0px 0px, 0px 0px, 0px 0px }
+    50% { }
+    100% { background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+@-moz-keyframes snow 
+{
+    0% { background-position: 0px 0px, 0px 0px, 0px 0px       }
+    50% { }
+    100% { background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+@-ms-keyframes snow 
+{
+    0% { background-position: 0px 0px, 0px 0px, 0px 0px }
+    50% { }
+    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;
+}
+@keyframes snow
+{
+    0% { background-position: 0px 0px, 0px 0px, 0px 0px }
+    50% { }
+    100% { background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
