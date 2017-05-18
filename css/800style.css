@@ -21,6 +21,11 @@
     font-family: road;
     src: url(../fonts/road.ttf);
 }
+@font-face
+{
+    font-family: din;
+    src: url(../fonts/DINBold.tff);
+}
 /*////////////////////////////////////////////////////////////////*/
 
 html, body
@@ -33,6 +38,7 @@ html, body
 
 .mainPage
 {
+    align-content: center;
     height: 100%;
     width:100%;
     margin: auto;
@@ -49,6 +55,7 @@ html, body
 
 .mainPage .inner
 {
+    align-content: center;
     display: table-cell;
     vertical-align: middle;
     width: 100%;
@@ -57,6 +64,7 @@ html, body
 
 .content
 {
+
     max-width: 500px;
     margin: 0 auto;
     text-align: center;
@@ -83,27 +91,27 @@ html, body
     left: 50%;
     margin: 0;
     text-decoration: none;
-    color: #fff;
+    color: chocolate;
 }
 nav ul li
 {
-    font-family:clean;
+    font-family: clean;
 	font-size: 2.5em;
 	display: inline-block;
 	padding: 10px;
 }
 nav ul li a
 {
-    color: #ffffff;
+    color: darkorange;
     text-decoration: none;
      opacity: 0.5;
 }
 nav ul li a:hover
 {
-    color: #C3D7DF;
+    color: darkgoldenrod;
     opacity: 1; 
     padding-bottom: 3px;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid darkgoldenrod;
 }
 
 
