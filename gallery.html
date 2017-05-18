@@ -4,18 +4,19 @@
     
 <head>
     <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    
     <link rel="stylesheet" type="text/css" href="/css/gallery.css" />
-    
-    <link href="css/font-awesome.min.css" rel="stylesheet"/>
 	<link rel="shortcut icon" type="image/png" href="../img/catIcon.png"/>
-
-  <title> MeowPow Graphics </title>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <title> MeowPow Graphics </title>
 </head>
 
 <body>
-    
+<!--
     <header>
         <div id="header-inner">
             <h1>Gallary</h1>
@@ -30,8 +31,50 @@
             </nav>
         </div>
     </header>
+-->
+    
+    <div id="wrapper">
+    <!--Start Gallery Row 1-->
+        <section class="one-third">
+            <a class="example-image-link" id="lightbox-img" href="img/godzilla(resized).jpg" data-lightbox="example-set" data-title="Godzilla Sketch"> <img class="example-image" src="img/godzilla(resized)Thumbnail.jpg" alt="Godzilla Sketch" title="Godzilla Sketch"> </a>
+        </section>
+        <section class="one-third">
+            <a class="example-image-link" id="lightbox-img" href="img/catFish.jpg" data-lightbox="example-set" data-title="Fish Cat"> <img class="example-image" src="img/catFishThumbnail.jpg" alt="Fish Cat" title="Fish Cat"> </a>
+        </section>
+        <section class="one-third">
+            <a class="example-image-link" id="lightbox-img" href="img/DarkCatWizard.jpg" data-lightbox="example-set" data-title="Wizard Cat"> <img class="example-image" src="img/DarkCatWizardThumbnail.jpg" alt="Wizard Cat" title="Wizard Cat"> </a>
+        </section>
 
+    <!--End Gallery Row 1-->
         
+    <!--Start Gallery Row 2-->
+        <section class="one-third">
+            <a class="example-image-link" id="lightbox-img" href="img/godzilla(resized).jpg" data-lightbox="example-set" data-title="Godzilla Sketch"> <img class="example-image" src="img/godzilla(resized)Thumbnail.jpg" alt="Godzilla Sketch" title="Godzilla Sketch"> </a>
+        </section>
+        <section class="one-third">
+            <a class="example-image-link" id="lightbox-img" href="img/catFish.jpg" data-lightbox="example-set" data-title="Fish Cat"> <img class="example-image" src="img/catFishThumbnail.jpg" alt="Fish Cat" title="Fish Cat"> </a>
+        </section>
+        <section class="one-third">
+            <a class="example-image-link" id="lightbox-img" href="img/DarkCatWizard.jpg" data-lightbox="example-set" data-title="Wizard Cat"> <img class="example-image" src="img/DarkCatWizardThumbnail.jpg" alt="Wizard Cat" title="Wizard Cat"> </a>
+        </section>
+    <!--End Gallery Row 2-->
+        
+    <!--Start Gallery Row 3-->
+        <section class="one-third">
+            <a class="example-image-link" id="lightbox-img" href="img/godzilla(resized).jpg" data-lightbox="example-set" data-title="Godzilla Sketch"> <img class="example-image" src="img/godzilla(resized)Thumbnail.jpg" alt="Godzilla Sketch" title="Godzilla Sketch"> </a>
+        </section>
+        <section class="one-third">
+            <a class="example-image-link" id="lightbox-img" href="img/catFish.jpg" data-lightbox="example-set" data-title="Fish Cat"> <img class="example-image" src="img/catFishThumbnail.jpg" alt="Fish Cat" title="Fish Cat"> </a>
+        </section>
+        <section class="one-third">
+            <a class="example-image-link" id="lightbox-img" href="img/DarkCatWizard.jpg" data-lightbox="example-set" data-title="Wizard Cat"> <img class="example-image" src="img/DarkCatWizardThumbnail.jpg" alt="Wizard Cat" title="Wizard Cat"> </a>
+        </section>
+    <!--End Gallery Row 3-->
+    </div>
+    
+    
+
+ <script src="js/lightbox-plus-jquery.min.js"></script>       
 </body>
 
 </html

@@ -8,71 +8,57 @@
 {
 	margin: 0;
 	padding: 0;
-	border: 0;
 }
 
 body
 {
-    font-family: clean;
-    line-height: 190%;
-    text-align: center;
+    background-color: black;
 }
 
-header
-{
-    height: 86px;
-    position: fixed;
-    z-index: 1000;
-    width: 100%;
-}
-
-#header-inner
+#wrapper
 {
     max-width: 1200px;
     margin: 0 auto;
 }
 
-h1
+img
 {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    margin-bottom: -4%;
+}
+
+.one-third
+{
+    width: 29%;
     float: left;
-    padding: 35px 20px  0; 
-    font-size: 350%;
-    
+    margin: 1%;
 }
 
-nav
+img:hover
 {
-    float: right;
-    padding: 45px 20px 0 0;
-    
+    opacity: .8;
 }
 
-ul
+@media screen and (max-width: 768px)
 {
-    list-style: none;
+    .one-third
+    {
+        width: 48%;
+        margin: 1%;
+    }
 }
 
-nav ul li
+@media screen and (max-width: 480px)
 {
-    display: inline-block;
-    padding 10px;
-    float: left;
-    font-size: 190%;
+    .one-third
+    {
+        width: 98%;
+        margin: 1%;
+    }
 }
-
-nav ul li a
-{
-    text-decoration: none;
-     opacity: 0.5;
-}
-nav ul li a:hover
-{
-    color: #C3D7DF;
-    opacity: 1; 
-    padding-bottom: 3px;
-    border-bottom: 1px solid #ffffff;
-}
-
 
 /*///////////////////////////////////////*/
 /*//Animation keyframes for snow effect//*/
