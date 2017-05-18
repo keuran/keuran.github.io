@@ -98,12 +98,18 @@ body
     max-width: 1200px;
     margin: 0 auto;
 }
+.social
+{
+    display: block;
+}
+
 h1
 {
     opacity: .8;
 }
 p
 {
+    width: 85%;
     background: black;
     padding-top: 15px;
 }
