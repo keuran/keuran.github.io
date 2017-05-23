@@ -95,7 +95,7 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder
 
 #form
 {
-  position: relative;
+  
   width: 500px;
   margin: 10px auto 30px auto;
 }
@@ -179,4 +179,9 @@ textarea:hover
 
 #submit:hover {
   color: #e2dedb;
+}
+
+@media screen and (max-width: 850px)
+{
+    
 }

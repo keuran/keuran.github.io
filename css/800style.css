@@ -45,12 +45,16 @@ html, body
     display: table;
     top: 0;
     background-size: cover;
-    background-image:url('../img/snow1.png'), url('.../img/snow2.png'),                     url('.../img/snow3.png');
     background-color: #000000;
+    
+/*---MAKE IT SNOW!---*/    
+/*
+    background-image:url('../img/snow1.png'), url('.../img/snow2.png'),                     url('.../img/snow3.png');
     -webkit-animation: snow 20s linear infinite;
     -moz-animation: snow 20s linear infinite;
     -ms-animation: snow 20s linear infinite;
     animation: snow 20s linear infinite;
+*/
 }
 
 .image-logo
@@ -69,8 +73,7 @@ html, body
 
 .content
 {
-
-    max-width: 500px;
+    max-width: 1000px;
     margin: 0 auto;
     text-align: center;
 }
@@ -97,6 +100,7 @@ html, body
     margin: 0;
     text-decoration: none;
     color: chocolate;
+    max-width:100%;
 }
 nav ul li
 {
@@ -109,7 +113,6 @@ nav ul li a
 {
     color: darkorange;
     text-decoration: none;
-     opacity: 0.5;
 }
 nav ul li a:hover
 {

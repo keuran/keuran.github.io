@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/css/storyStyle.css" />
+    <link rel="stylesheet" type="text/css" href="../css/modalStlye.css" />
+    <link rel="stylesheet" type="text/css" href="../css/contact.css" />
 	<link rel="shortcut icon" type="image/png" href="../img/catIcon.png"/>
     <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
     <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
@@ -27,6 +29,7 @@
                     <li><a href = "#cats">Resume</a></li>
                     <li><a href = "#contact">Contact</a></li>
                     <li><a href = "/story.html">My Story</a></li>
+                    <li><a href = "/index.html">Home</a></li>
                 </ul>
         </nav>
     </div> <!-- END NAVBAR CLASS -->
@@ -37,11 +40,27 @@
     <h1>About me</h1>
         <p> &emsp; Hey there, my name is Christian Chamberlain. First I would like to say thank you for visiting my site. I am currently studying Computer Science to work my way into either the field of Animation or Video Game Development. <br> &emsp; I am very passionate about anything that has to do with art...and cats.  As well as having a general curiousity for the world around me. I would love to get involved with a group of artist to collaborate on something. I have always felt that some of the most interesting things come from working out propblems with others.  <br><br> &emsp; Thank you again for checking out my site and you can see some of my work in my gallary or on Instagram. <br><br>Follow me here: </p>
         
+       <footer>
         <div class="social">
         <ul>
             <li><a href="https://www.instagram.com/keuran/?hl=en"><img src="img/insta.png"</a></li>
             <li><a href="https://twitter.com/Keuran1"><img src="img/twit.png"</a></li>
         </ul>
+        </div>
+        </footer>
+    </div>
+    
+<!-- USED WHEN CONTACT IS CLICKED TO UPDATE MODAL WINDOW -->
+    <div class = "modal" id="contact">
+        <div class = "modalContainer">
+            <form id="form" class="topBefore">
+                <p>contact</p>
+                <input id="name" type="text" placeholder="NAME">
+                <input id="email" type="text" placeholder="E-MAIL">
+                <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
+                <input id="submit" type="submit" value="SUBMIT">
+            </form>
+            <a href = "#modalClose">Close</a>
         </div>
     </div>
      
