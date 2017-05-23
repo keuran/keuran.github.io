@@ -71,10 +71,10 @@ nav ul li a
 }
 nav ul li a:hover
 {
-    color: #C3D7DF;
+    color: orangered;
     opacity: 1; 
     padding-bottom: 3px;
-    border-bottom: 1px solid darkorange;
+    border-bottom: 1px solid orangered;
 }
 
 body
@@ -90,7 +90,7 @@ body
 
 #wrapper
 {
-    font-size: 200%;
+    font-size: 100%;
     font-family: clean;
     color: aliceblue;
     padding-top: 180px;
@@ -123,16 +123,26 @@ footer
 
 h1
 {
-    opacity: .7;
     color: darkorange;
+     font-size: 250%;
+}
+
+h2
+{
+    color: darkorange;
+    font-size: 200%;
+    padding: 20px;
 }
 p
 {
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 2px 0 2px 2px;
     color: darkorange;
     width: 85%;
     background: black;
     padding-top: 15px;
-    font-size: 5%;
+    font-size: .5em;
 }
 
 img
@@ -157,7 +167,7 @@ img:hover
 }
 
 /*---MEDIA---*/
-@media screen and (max-width: 768px)
+@media screen and (max-width: 850px)
 {
     #menu-icon
     {

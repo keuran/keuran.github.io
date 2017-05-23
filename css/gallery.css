@@ -65,17 +65,24 @@ nav ul li
 }
 nav ul li a
 {
-    color: #ffffff;
+    color: darkorange;
     text-decoration: none;
      opacity: 0.8;
 }
 nav ul li a:hover
 {
-    color: #C3D7DF;
+    color: orangered;
     opacity: 1; 
     padding-bottom: 3px;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid orangered;
 }
+footer
+{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+
 .social
 {
     margin-top: 25px;
@@ -124,7 +131,7 @@ img:hover
 }
 
 /*---MEDIA---*/
-@media screen and (max-width: 768px)
+@media screen and (max-width: 850px)
 {
     #menu-icon
     {

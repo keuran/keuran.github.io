@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/css/gallery.css" />
+    <link rel="stylesheet" type="text/css" href="../css/modalStlye.css" />
+    <link rel="stylesheet" type="text/css" href="../css/contact.css" />
 	<link rel="shortcut icon" type="image/png" href="../img/catIcon.png"/>
     <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
     <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
@@ -24,9 +26,10 @@
             <a href="#" id="menu-icon"></a>
                 <ul>
                     <li><a href = "/gallery.html">Gallery</a></li>
-                    <li><a href = "#cats">Resume</a></li>
+                    <li><a href = "/resume.html">Resume</a></li>
                     <li><a href = "#contact">Contact</a></li>
                     <li><a href = "/story.html">My Story</a></li>
+                    <li><a href = "/index.html">Home</a></li>
                 </ul>
         </nav>
     </div> <!-- END NAVBAR CLASS -->
@@ -49,35 +52,51 @@
         
     <!--Start Gallery Row 2-->
         <section class="one-third">
-            <a class="example-image-link" id="lightbox-img" href="img/godzilla(resized).jpg" data-lightbox="example-set" data-title="Godzilla Sketch"> <img class="example-image" src="img/godzilla(resized)Thumbnail.jpg" alt="Godzilla Sketch" title="Godzilla Sketch"> </a>
+            <a class="example-image-link" id="lightbox-img" href="img/monkeyJohn%20copy(resized).png" data-lightbox="example-set" data-title="Space Monkey"> <img class="example-image" src="img/monkeyJohn%20copy(resized)%20copy(thumbnail).png" alt="Space Monkey" title="Space Monkey"> </a>
         </section>
         <section class="one-third">
-            <a class="example-image-link" id="lightbox-img" href="img/catFish.jpg" data-lightbox="example-set" data-title="Fish Cat"> <img class="example-image" src="img/catFishThumbnail.jpg" alt="Fish Cat" title="Fish Cat"> </a>
+            <a class="example-image-link" id="lightbox-img" href="img/Untitled-1.png" data-lightbox="example-set" data-title="Drone"> <img class="example-image" src="img/Untitled-1%20copy(resized).png" alt="Drone" title="drone"> </a>
         </section>
         <section class="one-third">
-            <a class="example-image-link" id="lightbox-img" href="img/DarkCatWizard.jpg" data-lightbox="example-set" data-title="Wizard Cat"> <img class="example-image" src="img/DarkCatWizardThumbnail.jpg" alt="Wizard Cat" title="Wizard Cat"> </a>
+            <a class="example-image-link" id="lightbox-img" href="img/tikiFire.jpg" data-lightbox="example-set" data-title="Tiki Fire"> <img class="example-image" src="img/tikiFire.jpg" alt="Tiki Fire" title="Tiki Fire"> </a>
         </section>
     <!--End Gallery Row 2-->
         
     <!--Start Gallery Row 3-->
         <section class="one-third">
-            <a class="example-image-link" id="lightbox-img" href="img/godzilla(resized).jpg" data-lightbox="example-set" data-title="Godzilla Sketch"> <img class="example-image" src="img/godzilla(resized)Thumbnail.jpg" alt="Godzilla Sketch" title="Godzilla Sketch"> </a>
+            <a class="example-image-link" id="lightbox-img" href="img/catzilla.jpg" data-lightbox="example-set" data-title="catZilla"> <img class="example-image" src="img/catzilla.jpg" alt="catZilla" title="catZilla"> </a>
         </section>
         <section class="one-third">
-            <a class="example-image-link" id="lightbox-img" href="img/catFish.jpg" data-lightbox="example-set" data-title="Fish Cat"> <img class="example-image" src="img/catFishThumbnail.jpg" alt="Fish Cat" title="Fish Cat"> </a>
+            <a class="example-image-link" id="lightbox-img" href="img/redBirdfinal%20copy.png" data-lightbox="example-set" data-title="Bird Bird"> <img class="example-image" src="img/redBirdfinal%20copyThumb.png" alt="Bird Bird" title="Bird Bird"> </a>
         </section>
         <section class="one-third">
-            <a class="example-image-link" id="lightbox-img" href="img/DarkCatWizard.jpg" data-lightbox="example-set" data-title="Wizard Cat"> <img class="example-image" src="img/DarkCatWizardThumbnail.jpg" alt="Wizard Cat" title="Wizard Cat"> </a>
+            <a class="example-image-link" id="lightbox-img" href="img/angel.jpg" data-lightbox="example-set" data-title="angel"> <img class="example-image" src="img/angel.jpg" alt="angel" title="angel"> </a>
         </section>
     <!--End Gallery Row 3-->
     </div>
     
+       <footer>
         <div class="social">
         <ul>
             <li><a href="https://www.instagram.com/keuran/?hl=en"><img src="img/insta.png"</a></li>
             <li><a href="https://twitter.com/Keuran1"><img src="img/twit.png"</a></li>
         </ul>
         </div>
+        </footer>
+    
+<!-- USED WHEN CONTACT IS CLICKED TO UPDATE MODAL WINDOW -->
+    <div class = "modal" id="contact">
+        <div class = "modalContainer">
+            <form id="form" class="topBefore">
+                <p>contact</p>
+                <input id="name" type="text" placeholder="NAME">
+                <input id="email" type="text" placeholder="E-MAIL">
+                <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
+                <input id="submit" type="submit" value="SUBMIT">
+            </form>
+            <a href = "#modalClose">Close</a>
+        </div>
+    </div>
 
  <script src="js/lightbox-plus-jquery.min.js"></script>       
 </body>

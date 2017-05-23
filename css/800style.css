@@ -116,10 +116,10 @@ nav ul li a
 }
 nav ul li a:hover
 {
-    color: darkgoldenrod;
+    color: orangered;
     opacity: 1; 
     padding-bottom: 3px;
-    border-bottom: 1px solid darkgoldenrod;
+    border-bottom: 1px solid orangered;
 }
 
 
